@@ -1,0 +1,24 @@
+{
+  "name": "cdp-mod2",
+  "version": "1.0.0",
+  "description": "kurs Cypress Fabryka Testow modul 2 GitHub",
+  "homepage": "https://github.com/MagdaLenaViper/CDP-MOD2#readme",
+  "bugs": {
+    "url": "https://github.com/MagdaLenaViper/CDP-MOD2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagdaLenaViper/CDP-MOD2.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "cypress": "^15.9.0",
+    "@faker-js/faker": "^8.2.0"
+  }
+}
