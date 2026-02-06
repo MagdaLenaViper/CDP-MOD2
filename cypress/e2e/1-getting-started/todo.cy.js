@@ -155,3 +155,33 @@ describe ('our test', () => {
 
 
 //<span class="elementor-button-text">ZAPISZ MNIE NA NEWSLETTER!</span> -->
+
+
+describe ('our test', () => {
+    beforeEach(() => {
+        cy.visit ('https://fabrykatestow.pl')
+    })
+  /*  it ('test',() => {
+        cy.get('span').contains('ZAPISZ MNIE NA NEWSLETTER!').click()
+    })*/
+
+
+// po id
+
+// po klasie
+
+// po tekscie
+
+it('by text',() => {
+
+cy.get('span').contains('Zobacz co oferujemy').click()
+cy.get('span').contains('Sprawdź nasze kursy').click()
+cy.get('span').contains('Bądź na bieżąco').click()
+cy.get('span').contains('POKAŻ CZEGO SIĘ NAUCZĘ').click()
+
+}
+
+// po atrybucie
+
+)
+} )
